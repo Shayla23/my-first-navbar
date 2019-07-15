@@ -2,19 +2,29 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+    overflow: hidden;
+    background-color: #9471e6;
   }
   
+  li {
+  float: left;
+}
+
   li a {
     display: block;
-    color: #000;
+    color: rgb(255, 255, 255);
     padding: 8px 16px;
     text-decoration: none;
   }
   
   /* Change the link color on hover */
   li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 9, 9);
   }
+body{
+  background-image: url("https://blog.csiro.au/wp-content/uploads/2018/08/file-20180822-149484-cs44toreduced.jpg");
+}
+h2 {
+  color: white; 
+}
